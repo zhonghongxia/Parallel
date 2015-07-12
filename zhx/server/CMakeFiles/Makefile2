@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/zhx/Parallel/zhx/server
 CMakeFiles/srv.dir/all:
 	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/depend
 	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhx/Parallel/zhx/server/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhx/Parallel/zhx/server/CMakeFiles  1 2
 	@echo "Built target srv"
 .PHONY : CMakeFiles/srv.dir/all
 
@@ -69,7 +69,7 @@ all: CMakeFiles/srv.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/srv.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhx/Parallel/zhx/server/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhx/Parallel/zhx/server/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/srv.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/zhx/Parallel/zhx/server/CMakeFiles 0
 .PHONY : CMakeFiles/srv.dir/rule

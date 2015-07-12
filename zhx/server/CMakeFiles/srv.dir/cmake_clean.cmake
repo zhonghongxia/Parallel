@@ -1,5 +1,6 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/srv.dir/threadpool.cpp.o"
+  "CMakeFiles/srv.dir/tcpmessage.cpp.o"
+  "CMakeFiles/srv.dir/server.cpp.o"
   "srv.pdb"
   "srv"
 )

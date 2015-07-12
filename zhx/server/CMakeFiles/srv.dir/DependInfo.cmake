@@ -4,7 +4,8 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/zhx/Parallel/zhx/server/threadpool.cpp" "/home/zhx/Parallel/zhx/server/CMakeFiles/srv.dir/threadpool.cpp.o"
+  "/home/zhx/Parallel/zhx/server/server.cpp" "/home/zhx/Parallel/zhx/server/CMakeFiles/srv.dir/server.cpp.o"
+  "/home/zhx/Parallel/zhx/server/tcpmessage.cpp" "/home/zhx/Parallel/zhx/server/CMakeFiles/srv.dir/tcpmessage.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -111,29 +111,53 @@ srv/fast:
 	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/build
 .PHONY : srv/fast
 
-threadpool.o: threadpool.cpp.o
-.PHONY : threadpool.o
+server.o: server.cpp.o
+.PHONY : server.o
 
 # target to build an object file
-threadpool.cpp.o:
-	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/threadpool.cpp.o
-.PHONY : threadpool.cpp.o
+server.cpp.o:
+	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/server.cpp.o
+.PHONY : server.cpp.o
 
-threadpool.i: threadpool.cpp.i
-.PHONY : threadpool.i
+server.i: server.cpp.i
+.PHONY : server.i
 
 # target to preprocess a source file
-threadpool.cpp.i:
-	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/threadpool.cpp.i
-.PHONY : threadpool.cpp.i
+server.cpp.i:
+	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/server.cpp.i
+.PHONY : server.cpp.i
 
-threadpool.s: threadpool.cpp.s
-.PHONY : threadpool.s
+server.s: server.cpp.s
+.PHONY : server.s
 
 # target to generate assembly for a file
-threadpool.cpp.s:
-	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/threadpool.cpp.s
-.PHONY : threadpool.cpp.s
+server.cpp.s:
+	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/server.cpp.s
+.PHONY : server.cpp.s
+
+tcpmessage.o: tcpmessage.cpp.o
+.PHONY : tcpmessage.o
+
+# target to build an object file
+tcpmessage.cpp.o:
+	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/tcpmessage.cpp.o
+.PHONY : tcpmessage.cpp.o
+
+tcpmessage.i: tcpmessage.cpp.i
+.PHONY : tcpmessage.i
+
+# target to preprocess a source file
+tcpmessage.cpp.i:
+	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/tcpmessage.cpp.i
+.PHONY : tcpmessage.cpp.i
+
+tcpmessage.s: tcpmessage.cpp.s
+.PHONY : tcpmessage.s
+
+# target to generate assembly for a file
+tcpmessage.cpp.s:
+	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/tcpmessage.cpp.s
+.PHONY : tcpmessage.cpp.s
 
 # Help Target
 help:
@@ -144,9 +168,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... srv"
-	@echo "... threadpool.o"
-	@echo "... threadpool.i"
-	@echo "... threadpool.s"
+	@echo "... server.o"
+	@echo "... server.i"
+	@echo "... server.s"
+	@echo "... tcpmessage.o"
+	@echo "... tcpmessage.i"
+	@echo "... tcpmessage.s"
 .PHONY : help
 
 

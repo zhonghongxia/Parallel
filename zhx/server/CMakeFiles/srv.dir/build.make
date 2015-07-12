@@ -49,37 +49,62 @@ include CMakeFiles/srv.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/srv.dir/flags.make
 
-CMakeFiles/srv.dir/threadpool.cpp.o: CMakeFiles/srv.dir/flags.make
-CMakeFiles/srv.dir/threadpool.cpp.o: threadpool.cpp
+CMakeFiles/srv.dir/tcpmessage.cpp.o: CMakeFiles/srv.dir/flags.make
+CMakeFiles/srv.dir/tcpmessage.cpp.o: tcpmessage.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhx/Parallel/zhx/server/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/srv.dir/threadpool.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/srv.dir/threadpool.cpp.o -c /home/zhx/Parallel/zhx/server/threadpool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/srv.dir/tcpmessage.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/srv.dir/tcpmessage.cpp.o -c /home/zhx/Parallel/zhx/server/tcpmessage.cpp
 
-CMakeFiles/srv.dir/threadpool.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srv.dir/threadpool.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zhx/Parallel/zhx/server/threadpool.cpp > CMakeFiles/srv.dir/threadpool.cpp.i
+CMakeFiles/srv.dir/tcpmessage.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srv.dir/tcpmessage.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zhx/Parallel/zhx/server/tcpmessage.cpp > CMakeFiles/srv.dir/tcpmessage.cpp.i
 
-CMakeFiles/srv.dir/threadpool.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srv.dir/threadpool.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zhx/Parallel/zhx/server/threadpool.cpp -o CMakeFiles/srv.dir/threadpool.cpp.s
+CMakeFiles/srv.dir/tcpmessage.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srv.dir/tcpmessage.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zhx/Parallel/zhx/server/tcpmessage.cpp -o CMakeFiles/srv.dir/tcpmessage.cpp.s
 
-CMakeFiles/srv.dir/threadpool.cpp.o.requires:
-.PHONY : CMakeFiles/srv.dir/threadpool.cpp.o.requires
+CMakeFiles/srv.dir/tcpmessage.cpp.o.requires:
+.PHONY : CMakeFiles/srv.dir/tcpmessage.cpp.o.requires
 
-CMakeFiles/srv.dir/threadpool.cpp.o.provides: CMakeFiles/srv.dir/threadpool.cpp.o.requires
-	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/threadpool.cpp.o.provides.build
-.PHONY : CMakeFiles/srv.dir/threadpool.cpp.o.provides
+CMakeFiles/srv.dir/tcpmessage.cpp.o.provides: CMakeFiles/srv.dir/tcpmessage.cpp.o.requires
+	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/tcpmessage.cpp.o.provides.build
+.PHONY : CMakeFiles/srv.dir/tcpmessage.cpp.o.provides
 
-CMakeFiles/srv.dir/threadpool.cpp.o.provides.build: CMakeFiles/srv.dir/threadpool.cpp.o
+CMakeFiles/srv.dir/tcpmessage.cpp.o.provides.build: CMakeFiles/srv.dir/tcpmessage.cpp.o
+
+CMakeFiles/srv.dir/server.cpp.o: CMakeFiles/srv.dir/flags.make
+CMakeFiles/srv.dir/server.cpp.o: server.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/zhx/Parallel/zhx/server/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/srv.dir/server.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/srv.dir/server.cpp.o -c /home/zhx/Parallel/zhx/server/server.cpp
+
+CMakeFiles/srv.dir/server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/srv.dir/server.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/zhx/Parallel/zhx/server/server.cpp > CMakeFiles/srv.dir/server.cpp.i
+
+CMakeFiles/srv.dir/server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/srv.dir/server.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/zhx/Parallel/zhx/server/server.cpp -o CMakeFiles/srv.dir/server.cpp.s
+
+CMakeFiles/srv.dir/server.cpp.o.requires:
+.PHONY : CMakeFiles/srv.dir/server.cpp.o.requires
+
+CMakeFiles/srv.dir/server.cpp.o.provides: CMakeFiles/srv.dir/server.cpp.o.requires
+	$(MAKE) -f CMakeFiles/srv.dir/build.make CMakeFiles/srv.dir/server.cpp.o.provides.build
+.PHONY : CMakeFiles/srv.dir/server.cpp.o.provides
+
+CMakeFiles/srv.dir/server.cpp.o.provides.build: CMakeFiles/srv.dir/server.cpp.o
 
 # Object files for target srv
 srv_OBJECTS = \
-"CMakeFiles/srv.dir/threadpool.cpp.o"
+"CMakeFiles/srv.dir/tcpmessage.cpp.o" \
+"CMakeFiles/srv.dir/server.cpp.o"
 
 # External object files for target srv
 srv_EXTERNAL_OBJECTS =
 
-srv: CMakeFiles/srv.dir/threadpool.cpp.o
+srv: CMakeFiles/srv.dir/tcpmessage.cpp.o
+srv: CMakeFiles/srv.dir/server.cpp.o
 srv: CMakeFiles/srv.dir/build.make
 srv: CMakeFiles/srv.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable srv"
@@ -89,7 +114,8 @@ srv: CMakeFiles/srv.dir/link.txt
 CMakeFiles/srv.dir/build: srv
 .PHONY : CMakeFiles/srv.dir/build
 
-CMakeFiles/srv.dir/requires: CMakeFiles/srv.dir/threadpool.cpp.o.requires
+CMakeFiles/srv.dir/requires: CMakeFiles/srv.dir/tcpmessage.cpp.o.requires
+CMakeFiles/srv.dir/requires: CMakeFiles/srv.dir/server.cpp.o.requires
 .PHONY : CMakeFiles/srv.dir/requires
 
 CMakeFiles/srv.dir/clean:
