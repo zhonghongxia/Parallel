@@ -1,0 +1,8 @@
+PROJECT(cli)
+LINK_DIRECTORIES(/usr/lib)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+AUX_SOURCE_DIRECTORY(. DIR_SRCS)
+ADD_EXECUTABLE(cli ${DIR_SRCS})
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -O2 -pthread -g")
+set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O2 -pthread -g")
+target_link_libraries(cli boost_system boost_thread)
