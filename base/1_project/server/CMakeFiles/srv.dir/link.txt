@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -std=c++11 -O2 -lboost_thread     CMakeFiles/srv.dir/tcpmessage.cpp.o CMakeFiles/srv.dir/server.cpp.o  -o srv -rdynamic -lboost_system -lboost_thread 

@@ -1,0 +1,1 @@
+/usr/bin/cc   -O2 -pthread -g    CMakeFiles/cli.dir/epoll_operation.c.o CMakeFiles/cli.dir/epoll_cli.c.o  -o cli -rdynamic -lboost_system -lboost_thread 
