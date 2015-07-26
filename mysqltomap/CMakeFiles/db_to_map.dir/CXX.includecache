@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhx/Parallel/mysqltomap/db_to_map.cpp
+db_to_map.h
+/home/zhx/Parallel/mysqltomap/db_to_map.h
+
+/home/zhx/Parallel/mysqltomap/db_to_map.h
+iostream
+-
+string.h
+-
+string
+-
+mysql/mysql.h
+-
+stdio.h
+-
+map
+-
+
+/home/zhx/Parallel/mysqltomap/main.cpp
+db_to_map.h
+/home/zhx/Parallel/mysqltomap/db_to_map.h
+

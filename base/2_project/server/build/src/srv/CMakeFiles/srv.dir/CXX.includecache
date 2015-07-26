@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zhx/Parallel/base/2_project/server/src/srv/mymessage.h
+stdio.h
+-
+sys/time.h
+-
+time.h
+-
+
+/home/zhx/Parallel/base/2_project/server/src/srv/protocol.h
+
+/home/zhx/Parallel/base/2_project/server/src/srv/tcpmessage.cpp
+tcpmessage.h
+/home/zhx/Parallel/base/2_project/server/src/srv/tcpmessage.h
+
+/home/zhx/Parallel/base/2_project/server/src/srv/tcpmessage.h
+protocol.h
+/home/zhx/Parallel/base/2_project/server/src/srv/protocol.h
+mymessage.h
+/home/zhx/Parallel/base/2_project/server/src/srv/mymessage.h
+cstdio
+-
+cstdlib
+-
+cstring
+-
+iostream
+-
+string
+-
+sys/time.h
+-
+

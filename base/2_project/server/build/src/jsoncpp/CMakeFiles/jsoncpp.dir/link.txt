@@ -1,0 +1,2 @@
+/usr/bin/ar cr libjsoncpp.a  CMakeFiles/jsoncpp.dir/JsonMap.cpp.o
+/usr/bin/ranlib libjsoncpp.a

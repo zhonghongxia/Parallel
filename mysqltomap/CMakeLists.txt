@@ -1,0 +1,7 @@
+PROJECT(db_to_map)
+LINK_DIRECTORIES(/usr/lib /usr/lib/x86_64-linux-gnu)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+AUX_SOURCE_DIRECTORY(. DIR_SRCS)
+ADD_EXECUTABLE(db_to_map ${DIR_SRCS})
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++11 -O2 ")
+target_link_libraries(db_to_map mysqlclient)

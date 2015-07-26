@@ -1,0 +1,1 @@
+/usr/bin/c++    -g -std=c++11 -O2     CMakeFiles/db_to_map.dir/db_to_map.cpp.o CMakeFiles/db_to_map.dir/main.cpp.o  -o db_to_map -rdynamic -lmysqlclient 

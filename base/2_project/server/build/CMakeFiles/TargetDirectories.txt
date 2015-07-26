@@ -1,0 +1,2 @@
+/home/zhx/Parallel/base/2_project/server/build/src/jsoncpp/CMakeFiles/jsoncpp.dir
+/home/zhx/Parallel/base/2_project/server/build/src/srv/CMakeFiles/srv.dir

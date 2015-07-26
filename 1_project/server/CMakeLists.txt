@@ -1,7 +1,0 @@
-PROJECT(srv)
-LINK_DIRECTORIES(/usr/lib)
-CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
-AUX_SOURCE_DIRECTORY(. DIR_SRCS)
-ADD_EXECUTABLE(srv ${DIR_SRCS})
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -std=c++11 -O2 -lboost_thread ")
-target_link_libraries(srv boost_system boost_thread)
